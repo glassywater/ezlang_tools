@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         EzLang 假名结果复制
 // @namespace    https://github.com/glassywater/ezlang_tools
-// @version      1.0.0
+// @version      1.0.1
 // @author       glassywater
 // @description  在转换按钮右侧添加复制按钮，复制转换结果的 HTML 源码
 // @match        https://www.ezlang.net/zh-Hans/tool/kana
 // @grant        GM_setClipboard
+// @downloadURL https://github.com/glassywater/ezlang_tools/raw/refs/heads/main/ezlang-copy.user.js
+// @updateURL   https://github.com/glassywater/ezlang_tools/raw/refs/heads/main/ezlang-copy.user.js
 // @license      GPL-3.0-only
 // ==/UserScript==
 

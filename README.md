@@ -33,7 +33,8 @@
 ## 安装方式
 
 1. 安装浏览器扩展：`Tampermonkey`
-2. 【[安装此脚本](https://github.com/glassywater/ezlang_tools/raw/refs/heads/main/ezlang-copy.user.js)】
+2. 【[安装此脚本_github源](https://github.com/glassywater/ezlang_tools/raw/refs/heads/main/ezlang-copy.user.js)】
+   【[安装此脚本_Greasy Fork源](https://update.greasyfork.org/scripts/568962/EzLang%20%E5%81%87%E5%90%8D%E7%BB%93%E6%9E%9C%E5%A4%8D%E5%88%B6.user.js)】
 3. 打开：`https://www.ezlang.net/zh-Hans/tool/kana`
 4. 在页面点击“转换”后，即可使用右侧新增的复制按钮
 
