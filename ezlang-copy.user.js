@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         EzLang 假名结果复制
 // @namespace    https://github.com/glassywater/ezlang_tools
-// @version      1.0.1
+// @version      1.0.2
 // @author       glassywater
 // @description  在转换按钮右侧添加复制按钮，复制转换结果的 HTML 源码
 // @match        https://www.ezlang.net/zh-Hans/tool/kana
@@ -142,8 +142,12 @@
     }
 
     function buildCleanHtml(container) {
-        const cleanRoot = cloneCleanNode(container);
-        return cleanRoot ? cleanRoot.outerHTML : '';
+        const lineHtmlList = Array.from(container.children)
+            .map((line) => cloneCleanNode(line))
+            .filter(Boolean)
+            .map((line) => line.outerHTML);
+
+        return lineHtmlList.join('\n');
     }
 
     function formatSpecialText(container) {
